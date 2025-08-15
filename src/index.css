@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+.swiper-pagination-bullet {
+  background-color: gray !important;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 0 !important;  
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: darkorange !important;
+  opacity: 1;
+}  
